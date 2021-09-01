@@ -11,7 +11,7 @@ This repository shows examples of using [rclrust](https://github.com/rclrust/rcl
 
 ```sh-session
 $ cd <your/workspace>/src
-$ git clone https://github.com/rclrust/rclrust-examples
+$ git clone git@github.com:rclrust/rclrust-examples.git
 $ cd ../
 $ colcon build
 ```
