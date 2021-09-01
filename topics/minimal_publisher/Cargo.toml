@@ -1,0 +1,15 @@
+[package]
+name = "rclrust_examples_minimal_publisher"
+version = "0.0.1"
+edition = "2018"
+authors = ["Yuma Hiramatsu <yuma.hiramatsu@gmail.com>"]
+
+description = "Examples of minimal publisher nodes"
+repository = "https://github.com/rclrust/rclrust-examples"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow = "1.0"
+rclrust = { git = "https://github.com/rclrust/rclrust.git" }
+rclrust-msg = { git = "https://github.com/rclrust/rclrust.git" }
+tokio = { version = "1", features = ["full"] }
