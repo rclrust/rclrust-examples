@@ -1,0 +1,15 @@
+[package]
+name = "rclrust_custom_msgs_publisher"
+version = "0.1.0"
+edition = "2018"
+authors = ["Yuma Hiramatsu <yuma.hiramatsu@gmail.com>"]
+
+description = "Publish a custom message using rclrust"
+repository = "https://github.com/rclrust/rclrust-examples"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow = "1.0.43"
+rclrust = { git = "https://github.com/rclrust/rclrust.git" }
+rclrust-msg = { git = "https://github.com/rclrust/rclrust.git" }
+tokio = { version = "1", features = ["full"] }

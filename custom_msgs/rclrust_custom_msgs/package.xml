@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rclrust_custom_msgs</name>
+  <version>0.1.0</version>
+  <description>Custom messages for rclrust</description>
+  <maintainer email="yuma.hiramatsu@gmail.com">Yuma Hiramatsu</maintainer>
+  <author email="yuma.hiramatsu@gmail.com">Yuma Hiramatsu</author>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
